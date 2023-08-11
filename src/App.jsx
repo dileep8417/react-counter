@@ -2,9 +2,13 @@ import { useState } from "react";
 import "./App.css";
 
 const App = () => {
+    // State variable to store the counter value
     const [count, setCount] = useState(0);
+
+    // Define the incremental/decremental value
     const countUpdateVal = 1;
 
+    // Define the actions that can be performed on the counter
     const operations = {
         increment: () => {
             setCount(prevCount => prevCount + countUpdateVal);
