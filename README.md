@@ -1,8 +1,17 @@
-# React + Vite
+# React Counter Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React counter project created for CERTA Assignment.
 
-Currently, two official plugins are available:
+## Live Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the live project [here](https://dileep8417.github.io/react-counter/).
+
+## Running the Project Locally
+
+To run the project on your local machine, follow these steps:
+
+   ```sh
+   git clone https://github.com/dileep8417/react-counter.git
+   cd react-counter
+   npm install
+   npm run dev
