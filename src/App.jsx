@@ -4,7 +4,9 @@ import { useEffect } from "react";
 import { trackPageVisits } from "./utils";
 
 const App = () => {
-    useEffect(() => trackPageVisits, []);
+    useEffect(() => {
+        trackPageVisits();
+    }, []);
 
     return (
         <main>
